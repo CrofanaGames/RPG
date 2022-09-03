@@ -3,11 +3,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Character.h"
+#include "RPGCharacterBase.h"
 #include "RPGCharacter.generated.h"
 
-UCLASS(config=Game)
-class ARPGCharacter : public ACharacter
+UCLASS(Config = Game)
+class ARPGCharacter : public ARPGCharacterBase
 {
 	GENERATED_BODY()
 
